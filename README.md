@@ -14,7 +14,7 @@ El objetivo de este proyecto era replicar una pagina web con el proposito de apl
 # Como verla? :arrow_right:
 
 La pagina se encuentra subida en firebase en el siguiente link:
-    [replica wise :link:](http://localhost:8080/ ) 
+    [replica wise :link:](https://luispedro-55850.firebaseapp.com/) 
 
 
 **O, se puede hacer lo siguiente**
