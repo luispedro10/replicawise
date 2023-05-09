@@ -4,6 +4,7 @@ import StartApp from "./components/StartApp";
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+<link rel="icon" href="favicon.webp" />
 
 
 const StartComponent = () => {

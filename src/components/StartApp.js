@@ -6,6 +6,7 @@ import Security from './Security';
 import Trust from './Trust';
 import Mission from './Mission';
 import Lock from './Lock';
+import Buttons from './Buttons'
 
 
 const StartApp = () => {
@@ -18,6 +19,7 @@ const StartApp = () => {
       <Trust/>
       <Mission/>
       <Lock/>
+      <Buttons/>
       
       
     </div>
