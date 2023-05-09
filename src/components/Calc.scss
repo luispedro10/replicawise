@@ -1,0 +1,38 @@
+.calc {
+    background-color: #9FE870;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    .content {
+        margin-top: 5rem; 
+        margin-left: -42rem; 
+      }
+  
+    .headline {
+      font-family: 'Inter', sans-serif, helvetica, arial, sans-serif;
+      font-weight: 600;
+      font-size: 53px;
+      line-height: 57px;
+      color: #163300;
+      margin-bottom: 1rem;
+      letter-spacing: -1px;
+    }
+  
+    .description {
+      font-family: 'Inter', sans-serif, helvetica, arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #163300;
+    }
+  }
+  

@@ -1,0 +1,92 @@
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Inter', sans-serif, helvetica, arial, sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      color: #0d1f00;
+      padding-left: 175px; 
+      padding-right: 170px;
+  
+      .tw-public-nav__logo {
+        margin-right: 30px;
+        padding-top: 32px; 
+      }
+  
+      .tw-public-nav__menu {
+        display: flex;
+        align-items: center;
+  
+        ul {
+          display: flex;
+          align-items: center;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          li {
+            margin-right: 0px;
+            padding-top: 23px; 
+  
+            &:last-child {
+              margin-right: 0;
+            }
+  
+            a {
+              text-decoration: none;
+              color: #333;
+              display: flex;
+              align-items: center;
+              padding: 5px 10px;
+              border-radius: 20px;
+              transition: background-color 0.3s ease;
+  
+              &:hover {
+                color: #333;
+                background-color: rgba(0, 0, 0, 0.1);
+              }
+            }
+  
+            .btn {
+              border-radius: 20px;
+              padding: 2px 16px;
+              transition: background-color 0.3s ease;
+              border: 2px solid rgb(159, 232, 112);
+  
+              &.btn-accent {
+                background-color: rgb(159, 232, 112);
+                color: #000000;
+  
+                &:hover {
+                  background-color: #80E142;
+                }
+              }
+            }
+  
+            .dropdown {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+  
+              .arrow {
+                margin-left: 5px;
+                font-size:10px;
+              }
+            }
+          }
+        }
+  
+        &.tw-public-nav__menu-right {
+          margin-left: auto;
+        }
+      }
+    }
+  }
