@@ -4,6 +4,8 @@ import Hero from './Hero';
 import Calc from './Calc';
 import Security from './Security';
 import Trust from './Trust';
+import Mission from './Mission';
+import Lock from './Lock';
 
 
 const StartApp = () => {
@@ -14,11 +16,13 @@ const StartApp = () => {
       <Calc />
       <Security/>
       <Trust/>
+      <Mission/>
+      <Lock/>
       
       
     </div>
   );
 };
 
-export default StartApp;
+export default StartApp; 
 

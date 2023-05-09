@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.mw-banner {
+  background-color: rgb(237, 239, 235);
+  padding: 21.5px 0;
+  position: relative;
+  z-index: 50;
+}
+
+.mw-banner__container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 9000px;
+  margin-right: 64px;
+  margin-left: 50px;
+}
+
+.mw-banner__img {
+  display: inline-block;
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 24px;
+}
+
+.tw-icon {
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .mw-banner__body {
+    margin: auto;
+    font-size: 1.125rem;
+  }
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mw-banner__body a {
+  text-decoration: none;
+  position: relative;
+}
+
+.mw-banner__body a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.mw-banner__body {
+  font-family: "Inter", sans-serif, helvetica, arial, sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 26px;
+  color: #163300;
+}/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,78 @@
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+header .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif, helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #0d1f00;
+  padding-left: 175px;
+  padding-right: 170px;
+}
+header .nav-container .tw-public-nav__logo {
+  margin-right: 30px;
+  padding-top: 32px;
+}
+header .nav-container .tw-public-nav__menu {
+  display: flex;
+  align-items: center;
+}
+header .nav-container .tw-public-nav__menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .nav-container .tw-public-nav__menu ul li {
+  margin-right: 0px;
+  padding-top: 23px;
+}
+header .nav-container .tw-public-nav__menu ul li:last-child {
+  margin-right: 0;
+}
+header .nav-container .tw-public-nav__menu ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+header .nav-container .tw-public-nav__menu ul li a:hover {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header .nav-container .tw-public-nav__menu ul li .btn {
+  border-radius: 20px;
+  padding: 2px 16px;
+  transition: background-color 0.3s ease;
+  border: 2px solid rgb(159, 232, 112);
+}
+header .nav-container .tw-public-nav__menu ul li .btn.btn-accent {
+  background-color: rgb(159, 232, 112);
+  color: #000000;
+}
+header .nav-container .tw-public-nav__menu ul li .btn.btn-accent:hover {
+  background-color: #80E142;
+}
+header .nav-container .tw-public-nav__menu ul li .dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+header .nav-container .tw-public-nav__menu ul li .dropdown .arrow {
+  margin-left: 5px;
+  font-size: 10px;
+}
+header .nav-container .tw-public-nav__menu.tw-public-nav__menu-right {
+  margin-left: auto;
+}/*# sourceMappingURL=Header.css.map */

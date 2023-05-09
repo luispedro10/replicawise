@@ -1,0 +1,52 @@
+.security-section {
+  padding-top: 20px;
+  background-color: #ffffff;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.security-section .container .divider {
+  background-color: rgba(58, 18, 18, 0.336);
+  width: 100%;
+  margin: 0 auto;
+}
+.security-section .container .security-items {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30rem;
+}
+.security-section .container .security-items .security-item {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+.security-section .container .security-items .security-item .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  width: 58px;
+  height: 58px;
+  background-color: rgba(204, 204, 204, 0.2823529412);
+  border-radius: 50%;
+}
+.security-section .container .security-items .security-item .security-icon {
+  fill: rgba(102, 102, 102, 0.5333333333);
+}
+.security-section .container .security-items .security-item .security-text {
+  font-family: "Inter", sans-serif, helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454745;
+  margin-bottom: 0;
+}
+.security-section .container .security-items .security-item .security-text .underline-link {
+  text-decoration: underline;
+}
+.security-section .container .security-items .security-item .security-text .underline-word {
+  text-decoration: underline;
+}/*# sourceMappingURL=Security.css.map */
